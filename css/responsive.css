@@ -1,0 +1,115 @@
+
+/* X-Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 575px) {
+    .navbar-brand img {
+        width: 65%;
+    }
+
+    #banner {
+        padding: 100px 0 100px;
+    }
+
+    .banner-text h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .banner-text p {
+        width: auto;
+        margin: 30px 0;
+    }
+
+    .ban-img{
+        margin: 45px 0;
+    }
+
+    .ban-img img{
+        width: 100%;
+    }
+
+
+    .sec-heading {
+        margin: 40px 0;
+    }
+
+    .sec-heading h2 {
+        font-size: 30px;
+    }
+
+    .sec-heading p {
+        width: auto;
+    }
+
+
+    .card {
+        padding: 30px 22px;
+    }
+
+    .card-body .card-text {
+        width: auto;
+    }
+
+    .card-body .card-title {
+        font-size: 22px;
+        margin: 15px 0;
+    }
+
+    #team .team-card .team-overlay .team-designation {
+        bottom: 10px;
+    }
+
+    #team .team-card .team-overlay .team-designation h4 {
+        margin-bottom: 0;
+    }
+
+    #team .team-card .team-overlay .team-designation p {
+        font-size: 15px;
+    }
+
+    .customer-sec-heading {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    .customer-sec-heading h2 {
+        font-size: 30px;
+    }
+
+    .customer-card {
+        padding: 34px 24px;
+    }
+
+    .customer-card p {
+        width: auto;
+    }
+
+    #news .news-card {
+        padding: 17px 12px 22px;
+        margin-bottom: 40px;
+    }
+
+    footer {
+        padding: 40px 0;
+    }
+
+    .f-company{
+        margin-top: 55px;
+    }
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
