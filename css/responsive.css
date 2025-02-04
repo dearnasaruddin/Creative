@@ -117,8 +117,29 @@
         font-size: 48px;
         line-height: 64px;
     }
+    .card-body .card-title {
+        white-space: nowrap;
+    }
+    .card-body .card-text {
+        width: auto;
+    }
+    .team-card:last-child{
+        margin-top: 24px;
+    }
+    #team .team-card .team-overlay .team-designation p {
+        white-space: nowrap;
+    }
+    .customer-card:last-child{
+        margin-top: 24px;
+    }
+    .customer-card p {
+        width: auto;
+    }
+    #news .news-card {
+        margin-bottom: 24px;
+    }
     footer {
-        padding: 0px 0;
+        padding: 24px 0;
     }
 }
 
