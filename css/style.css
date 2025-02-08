@@ -171,11 +171,12 @@ nav {
     font-weight: 700;
     color: var(--secondary);
     margin: 30px 0 20px;
+    white-space: nowrap;
 }
 
 
 .card-body .card-text {
-    width: 274px;
+    max-width: 274px;
     font-size: 16px;
     font-weight: 400;
     line-height: 27px;
@@ -356,11 +357,11 @@ nav {
 }
 
 .customer-card p {
+    max-width: 274px;
     font-weight: 400;
     font-size: 16px;
     line-height: 27px;
     color: var(--secondary-70);
-    width: 274px;
     margin-bottom: 15px;
 }
 
